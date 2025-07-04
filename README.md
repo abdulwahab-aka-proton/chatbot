@@ -6,8 +6,8 @@ Hi! This is a bot which answers user questions by consulting an FAQ document. It
 
 Note:  This is not just for FAQ documents. Any kind of readable document can be passed to the bot. i.e. Lecture notes, Resumes, Manuals etc.
 
-## How to use this Chat-bot?
-**1. Install Python**
+# How to use this Chat-bot?
+## Install Python
 
 Check if Python is installed on your system by running  the following  command on Windows Command Prompt / Terminal or Powershell 
 ```
@@ -22,8 +22,7 @@ If Python is not installed on your system then follow the steps below to downloa
 3.  Scroll to the bottom and select either _Windows installer (64-bit)_ or _Windows installer (32-bit)_.
 4. Once you have downloaded the Installer go ahead and run it. It will install Python on your system.
 
-
-**2. Python Packages Needed**
+## Python Packages Needed
 
 Once Python is installed on your system, run the following commands in terminal to install all Python packages required to run this chat-bot.
 
@@ -35,13 +34,13 @@ Once Python is installed on your system, run the following commands in terminal 
  - `pip install langchain-text-splitters`
  - `pip install python-dotenv`
  
-**3. API KEY**
+## API KEY
 
 You will need an API Key to access a Large Language Model (LLM). You can use any API Key provider. But i suggest either Groq or Huggingface since both are free.
 
 Once you have generated the API Key, copy it and keep it safe.
 
-**4. Implementation**
+## Implementation
 
  1. Create a folder
  2. Inside the folder, create an `.env` file and create an `app.py` file.
