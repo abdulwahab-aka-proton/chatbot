@@ -8,6 +8,7 @@ Note:  This is not just for FAQ documents. Any kind of readable document can be 
 
 ## How to use this Chat-bot?
 **1. Install Python**
+
 Check if Python is installed on your system by running  the following  command on Windows Command Prompt / Terminal or Powershell 
 ```
 python --version
@@ -35,6 +36,7 @@ Once Python is installed on your system, run the following commands in terminal 
  - `pip install python-dotenv`
  
 **3. API KEY**
+
 You will need an API Key to access a Large Language Model (LLM). You can use any API Key provider. But i suggest either Groq or Huggingface since both are free.
 
 Once you have generated the API Key, copy it and keep it safe.
